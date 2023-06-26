@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/white-cup-1400.gif);
+  font-family: sans-serif;
+}
+
+.main {
+  width: 60%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.main-header {
+  background-color: rgb(5, 82, 5);
+  opacity: 0.8;
+}
+
+.header {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header > p {
+  color: white;
+  padding-top: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.product {
+  display: flex;
+}
+
+.product-1 {
+  flex: 2;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.product-2 {
+  flex: 1;
+  background-color: white;
+  position: relative;
+}
+
+.cofee-product-1,
+.cofee-product-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.cofee-1,
+.cofee-2,
+.cofee-3,
+.cofee-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cofee-1 > p {
+  text-align: center;
+}
+
+.cofee-2 > p {
+  text-align: center;
+}
+
+.cofee-3 > p {
+  text-align: center;
+}
+
+.cofee-4 > p {
+  text-align: center;
+}
+
+.text-1,
+.text-2 {
+  color: white;
+}
+
+.price,
+.price-1 {
+  color: burlywood;
+}
+
+button {
+  align-items: center;
+  appearance: none;
+  background-color: burlywood;
+  border-radius: 1px;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #36395a;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+button:focus {
+  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.main-footer {
+  background-color: rgb(5, 82, 5);
+  opacity: 0.8;
+  margin-bottom: 100px;
+}
+
+.footer {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+.email > p {
+  color: white;
+}
+
+.name > p {
+  color: white;
+}
+
+.job > p {
+  color: white;
+}
+
+.email,
+.name,
+.job {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.order {
+  width: 90%;
+  margin: auto;
+  /* background-color: rgb(124, 61, 9); */
+  margin-top: 20px;
+}
+
+.your-order {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(124, 61, 9);
+}
+
+.total {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  position: absolute;
+  top: 930px;
+}
+
+.total > p {
+  font-size: 25px;
+}
+
+.line {
+  border: 1px solid;
+}
+
+.ice-tea {
+  width: 350px;
+  height: 350px;
+  background-color: white;
+}
+
+.ice-tea-image {
+  margin-left: 65px;
+  margin-top: 70px;
+}
+
+.order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.order-product {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.trash {
+  font-size: 40px;
+  cursor: pointer;
+  color: burlywood;
+}
+
+.starbucks-cofee {
+  font-size: 25px;
+  align-self: center;
+  color: white;
+}
+
+.cofee-price {
+  font-size: 25px;
+  align-self: center;
+  color: white;
+}
